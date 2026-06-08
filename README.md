@@ -145,7 +145,8 @@ release/
 │   ├── backend/                        ← .NET 10 Solution
 │   │   └── src/
 │   │       ├── HelpDeskPro.Api/
-│   │       └── HelpDeskPro.Worker/
+│   │       ├── HelpDeskPro.Worker/
+│   │       ├── HelpDeskPro.Infrastructure/  ← EF Core DbContext, Services, Storage, Messaging
 │   └── helpdeskpro-react/              ← Frontend React + Vite
 └── db/
     ├── database.zip                    ← Schema + seed data PostgreSQL
